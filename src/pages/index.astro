@@ -7,6 +7,7 @@ import FormattedDate from "../../src/components/FormattedDate.astro";
 import { getCollection } from "astro:content";
 import { Icon } from "astro-icon";
 import getSortedTags from "@/utils/getSortedTags";
+import { SITE } from "@config";
 
 const posts = await getCollection("blog");
 
@@ -17,10 +18,7 @@ const sortedPosts = posts
     .slice(0, 5);
 ---
 
-<Layout
-    title="Astro Lane | Avenue Labs"
-    description="Astro Lane is a customizable blog theme that offers minimal styling, making it easy for you to tailor it to your needs. It's a personal portfolio landing template for developers and designers. Made by Avenue Labs"
->
+<Layout title={SITE.title} description={SITE.desc}>
     <div
         class="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto"
     >
