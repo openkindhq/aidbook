@@ -10,7 +10,7 @@ import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://www.astro-lane.avenuelabs.co/",
+    site: "https://aidbook.openkind.org",
     markdown: {
         syntaxHighlight: "prism",
         remarkPlugins: [remarkToc, remarkReadingTime]
