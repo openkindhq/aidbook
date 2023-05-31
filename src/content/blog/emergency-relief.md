@@ -4,8 +4,10 @@ title: Emergency Relief - Responding to Natural Disasters and Crises
 featured: true
 draft: false
 tags:
-    - docs
-    - guide
+    - emergency
+    - crisis
+    - relief
+    - disaster
 heroImage: ""
 description: "This article delves into the essential components of emergency relief, examining the strategies, coordination mechanisms, and the provision of immediate assistance that underpin effective response during times of crisis."
 ---

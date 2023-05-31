@@ -12,7 +12,7 @@ export interface Props {
 
 const { post } = Astro.props;
 
-const { title, description, pubDate, updatedDate, heroImage } = post.data;
+const { title, description, pubDate, updatedDate, heroImage, tags } = post.data;
 
 const ogUrl = new URL(
     heroImage ? heroImage : `${title.replace(/\s+/g, "-").toLowerCase()}.png`,
@@ -47,6 +47,21 @@ const { Content } = await post.render();
                             {title}
                         </h1>
                     </div>
+                    <div class="space-x-2">
+                        {
+                            tags.map((i) => (
+                                <span class="mb-4 text-sm w-max md:w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-primary-500 block md:inline-flex">
+                                    <a
+                                        href={`/tags/${i}`}
+                                        class="px-2 no-underline capitalize"
+                                    >
+                                        {i}
+                                    </a>
+                                </span>
+                            ))
+                        }
+                    </div>
+
                     <span
                         class="mb-4 text-sm w-max md:w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-primary-500 block md:inline-flex"
                     >

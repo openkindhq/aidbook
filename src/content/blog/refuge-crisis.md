@@ -4,8 +4,11 @@ title: Refugee Crisis - Addressing the Needs and Challenges
 featured: true
 draft: false
 tags:
-    - docs
-    - guide
+    - emergency
+    - crisis
+    - relief
+    - disaster
+    - refuge
 heroImage: ""
 description: "This article sheds light on the needs and challenges faced by refugees worldwide and explores the ways in which we can support them in their journey towards rebuilding their lives."
 ---

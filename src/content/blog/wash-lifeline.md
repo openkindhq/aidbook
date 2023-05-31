@@ -4,8 +4,9 @@ title: Water, Sanitation, and Hygiene (WASH) - A Lifeline
 featured: true
 draft: false
 tags:
-    - docs
-    - guide
+    - crisis
+    - relief
+    - disaster
 heroImage: ""
 description: "Learn about the vital role of Water, Sanitation, and Hygiene (WASH) interventions in humanitarian aid. Discover how these initiatives provide clean water, sanitation facilities, and promote hygiene practices to ensure public health and dignity in crisis-affected communities."
 ---
